@@ -1,3 +1,10 @@
+# This script takes an Rmarkdown file and converts it to 
+# a regular markdown file that can be built as a static 
+# page using jekyll.
+# It cleans up aftre itself and moves the orignal .Rmd file
+# to a /tmp folder in case it is required again later.
+
+
 library(knitr)
 library(stringr)
 
