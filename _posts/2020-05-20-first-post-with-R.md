@@ -3,10 +3,6 @@ layout: single
 title:  "My first post with R and knitr"
 date:   2020-05-20 20:54:50 +1000
 categories: [R, knitr]
-output:
-  md_document:
-    variant: gfm
-    preserve_yaml: TRUE
 ---
 
 Make a graph with **ggplot** in **R**.

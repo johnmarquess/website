@@ -3,10 +3,6 @@ layout: single
 title:  "My first post with R and knitr"
 date:   2020-05-20 20:54:50 +1000
 categories: [R, knitr]
-output:
-  md_document:
-    variant: gfm
-    preserve_yaml: TRUE
 ---
 
 Make a graph with **ggplot** in **R**.
@@ -16,15 +12,6 @@ Make a graph with **ggplot** in **R**.
 library(tidyverse)
 library(ggthemes)
 library(knitr)
-
-# define paths
-base_dir <- "/home/dude/Projects/website/"
-base_url <- "/"
-fig_path <- "assets/img/r_figs/"
-
-
-opts_knit$set(base.dir = base_dir, base.url = base_url)
-opts_chunk$set(fig.path = fig_path)
 ```
 
 Dolore ea amet sit pariatur. Anim velit id siqt cupidatat magna minim ea excepteur magna do. Voluptate esse proident exercitation dolor Lorem velit ad fugiat sit. Laboris excepteur fugiat amet mollit esse aliquip. Minim anim nisi id ex sunt in mollit pariatur in mollit voluptate fugiat. Consequat enim voluptate fugiat labore. Reprehenderit mollit deserunt adipisicing do proident ex et mollit veniam in amet in.
