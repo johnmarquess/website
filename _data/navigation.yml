@@ -2,3 +2,7 @@
 main:
  - title: "Categories"
    url: /categories/
+#  - title: "Portfolio"
+#    url: /portfolio/
+ - title: "Posts"
+   url: /archive/

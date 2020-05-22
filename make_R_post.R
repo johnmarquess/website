@@ -1,5 +1,5 @@
-# This script takes an Rmarkdown file and converts it to 
-# a regular markdown file that can be built as a static 
+# This script takes an Rmarkdown file and converts it to
+# a regular markdown file that can be built as a static
 # page using jekyll.
 # It cleans up aftre itself and moves the orignal .Rmd file
 # to a /tmp folder in case it is required again later.
@@ -14,7 +14,7 @@ base_url <- "/"
 rmd_dir <- "_rmd/"
 output_dir <- paste0(base_dir, "_posts/")
 fig_path <- "assets/img/r_figs/"
-tmp_dir <- paste0(base_dir, "tmp/")
+tmp_dir <- paste0(base_dir, "_rmd.bak/")
 opts_knit$set(base.dir = base_dir, base.url = base_url)
 opts_chunk$set(fig.path = fig_path)
 
