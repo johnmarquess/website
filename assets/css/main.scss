@@ -1,8 +1,34 @@
 --- 
 --- 
 
+// Add this before imports
+$tq-blueish: #0445ad;
+
+$link-color: $tq-blueish;
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; 
+
+
+html {
+  font-size: .9em; //14 change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 12em; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 1.2em; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 1.2em; // change to whatever
+  }
+}
+
+.archive__item-excerpt {
+    margin-top: 0;
+    font-size: 1em;
+}
