@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "My second try with R and knitr"
+title:  "Making a graph in Rmarkdown with R and knitr"
 date:   2020-05-23 +1000
 categories: [R]
 ---

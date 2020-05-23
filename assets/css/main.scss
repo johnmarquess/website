@@ -5,6 +5,23 @@
 $tq-blueish: #0445ad;
 
 $link-color: $tq-blueish;
+$base00: #3d3d3d;
+$base01: #282a2e;
+$base02: #373b41;
+$base03: #969896;
+$base04: #777777;
+$base05: #e2e2e2;
+$base06: #e0e0e0;
+$base07: #ffffff;
+$base08: #cc6666;
+$base09: #de5f5f;
+$base0a: #f0c674;
+$base0b: #4acf22;
+$base0c: #00d5f1;
+$base0d: #81a2be;
+$base0e: #b294bb;
+$base0f: #a3685a;
+
 
 @charset "utf-8";
 
@@ -16,7 +33,7 @@ html {
   font-size: .9em; //14 change to whatever
 
   @include breakpoint($medium) {
-    font-size: 12em; // change to whatever
+    font-size: 1.2em; // change to whatever
   }
 
   @include breakpoint($large) {
@@ -32,3 +49,4 @@ html {
     margin-top: 0;
     font-size: 1em;
 }
+
