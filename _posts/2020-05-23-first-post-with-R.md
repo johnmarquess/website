@@ -1,15 +1,15 @@
 ---
 layout: single
 title:  "My second try with R and knitr"
-date:   2020-05-20 20:54:50 +1000
+date:   2020-05-23 +1000
 categories: [R]
 ---
 
-Make a graph with **ggplot** in **R**.
+In this post I have made rudimentary plot using **ggplot** in **R** with the one of the stanrdard data sets (cars).
 
 
 
-Dolore ea amet sit pariatur. Anim velit id siqt cupidatat magna minim ea excepteur magna do. Voluptate esse proident exercitation dolor Lorem velit ad fugiat sit. Laboris excepteur fugiat amet mollit esse aliquip. Minim anim nisi id ex sunt in mollit pariatur in mollit voluptate fugiat. Consequat enim voluptate fugiat labore. Reprehenderit mollit deserunt adipisicing do proident ex et mollit veniam in amet in.
+I have used the script from the previous post to convert the Rmarkdown script to a standard markdown script and dave it in the `_posts` directory. It produces a graph which gets saved in the `assets/img/r_figs/` directory.
 
 
 
@@ -27,7 +27,8 @@ ggplot(mpg, aes(x = displ, y = hwy, colour = factor(cyl))) +
         legend.text = element_text(size = 12)
     )
 ```
+Here is the graph produced with ggplot and a few modifications to the theme.
 
 ![plot of chunk typical_graph](/assets/img/r_figs/typical_graph-1.png)
 
-Here is a graph produced with ggplot and a few modifications to the theme.
+
