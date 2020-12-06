@@ -10,8 +10,9 @@ The purpose of this article is not to go into the details of setting up a jekyll
 
 **Prerequisites**
 
-- You need to have ruby installed on your system with the required gems (jekyll and bundler). I use Ubuntu and the steps to set up jekyll are described [here](https://jekyllrb.com/docs/installation/ubuntu/).
-- I use bundler to install jekyll simply because it makes the install process quite simple.
+- You need to have ruby installed on your system with the required gems (jekyll and bundler). 
+- Instructions to install and up jekyll on a mac are described [here](https://jekyllrb.com/docs/installation/macos/).
+- I use bundler to install jekyll  because it makes the install process quite simple. Instrcutions [here](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
 - This workflow should work regardless of whatever jekyll theme you use. I use  the [minimal mistakes](https://mmistakes.github.io/minimal-mistakes/) because I like the way it looks and it has extensive [configuration and customisation](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) options. I didn’t use the standard gem-based theme install, I cloned the minimal mistakes repo and put in the root folder of my site. I had a number of changes I wanted to make, particularly in the `_layouts` and `_includes` sections so this was an easier option for me.
 - It is assumed R is installed on your system and you intend to use R to generate some of your blog posts. For the R code to run you will need the [knitr](https://yihui.org/knitr/) and [stringr](https://stringr.tidyverse.org/) packages installed.
 
