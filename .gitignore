@@ -1,6 +1,7 @@
 # User added
 .vscode/
 tmp/
+.DS_Store
 
 # R files
 .Rhistory

@@ -9,7 +9,7 @@ In this post I have made rudimentary plot using **ggplot** in **R** with the one
 
 
 
-I have used the script from the previous post to convert the Rmarkdown script to a standard markdown script and dave it in the `_posts` directory. It produces a graph which gets saved in the `assets/img/r_figs/` directory.
+I have used the script from the previous post to convert the Rmarkdown script to a standard markdown script and save it in the `_posts` directory. It produces a graph which gets saved in the `assets/img/r_figs/` directory.
 
 
 
